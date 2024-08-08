@@ -25,7 +25,7 @@ const ProductDetail = () => {
                 variant="h4"
                 component="h1"
                 gutterBottom>
-                Product List
+                Product Details
             </Typography>
 
             <Card elevation={5} sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center', p: 2 }}>
