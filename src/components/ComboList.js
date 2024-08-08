@@ -53,10 +53,7 @@ const ComboList = () => {
                                         color="text.secondary"
                                         align="center"
                                     >
-                                        Combo Price is
-                                        <Box component="span" sx={{ color: 'black' }}>${combo.comboPrice}</Box>
-                                        and you are saving
-                                        <Box component="span" sx={{ color: 'black' }}>${combo.discountPercentage}%</Box>
+                                        Combo Price is <Box component="span" sx={{ color: 'black' }}>${combo.comboPrice}</Box> and you are saving <Box component="span" sx={{ color: 'black' }}>${combo.discountPercentage}%</Box>
                                     </Typography>
                                 </Box>
                                 <CardContent>
